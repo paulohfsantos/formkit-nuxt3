@@ -1,6 +1,7 @@
-/** @type { import('@storybook/vue3-vite').StorybookConfig } */
-const config = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+import { StorybookConfig } from '@storybook/vue3-vite'
+
+const config: StorybookConfig = {
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -12,6 +13,9 @@ const config = {
   },
   docs: {
     autodocs: "tag",
+  },
+  core: {
+    builder: '@storybook/builder-vite',
   },
 };
 export default config;

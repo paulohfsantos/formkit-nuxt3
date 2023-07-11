@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { IInputs, IValues } from '../types'
+import { IInputs, IValues } from '../../types'
 
 export default defineComponent({
   name: 'App',
@@ -94,5 +94,5 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-@import '../assets/main.scss';
+@import '../../assets/main.scss';
 </style>

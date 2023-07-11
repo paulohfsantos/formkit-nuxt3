@@ -1,4 +1,5 @@
-/** @type { import('@storybook/vue3').Preview } */
+import { StorybookConfig } from '@storybook/vue3-vite'
+
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
