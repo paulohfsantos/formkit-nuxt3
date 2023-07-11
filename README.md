@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+<!-- # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -60,4 +60,27 @@ pnpm run preview
 yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information. -->
+
+# Nuxt 3 with FormKit + Storybook
+
+Basic example of using FormKit with Nuxt 3 with Storybook
+
+## Setup
+
+```bash
+# install dependencies
+yarn install
+
+# run dev nuxt
+yarn dev
+
+# run storybook
+yarn storybook
+```
+
+## Tech Stack
+
+- [Nuxt 3](https://v3.nuxtjs.org/)
+- [FormKit](https://formkit.com/)
+- [Storybook](https://storybook.js.org/)
