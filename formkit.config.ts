@@ -1,5 +1,5 @@
 import { pt, en } from '@formkit/i18n'
-import { defineFormKitConfig, DefaultConfigOptions } from '@formkit/vue'
+import { DefaultConfigOptions } from '@formkit/vue'
 import '@formkit/themes'
 import '@formkit/pro'
 

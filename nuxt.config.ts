@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   modules: ['@formkit/nuxt'],
   css: ['~/assets/main.scss'],
   srcDir: 'src/',
+  components: {
+    dirs: ['~/components']
+  }
 })
